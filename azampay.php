@@ -157,6 +157,7 @@ function azampay_link($params) {
     $Language = "en";
 
     $postfields = array();
+    $postfields['source'] = "WHMCS";
     $postfields['VendorName'] = $appName;
     $postfields['ClientId'] = $clientID;
     $postfields['AppName'] = $appName;
