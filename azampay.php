@@ -147,9 +147,6 @@ function azampay_link($params) {
     //$accountId = "e70c2833-242f-418e-b759-c73795b0b90d";
 
     $systemurl = $params['systemurl'];
-    //$callback_url = 'http://192.168.112.44/whmcs/modules/gateways/azampay/modules/gateways/callback/azampay.php';
-    // $callback_url = $systemurl . 'modules/gateways/callback/azampay.php';
-    // https://whmcs.duhosting.co.tz/clientarea.php?action=invoices
     $callback_url = $systemurl . 'clientarea.php?action=invoices';
     $invoiceId = $params['invoiceid'];
     $amount = $params['amount'];
