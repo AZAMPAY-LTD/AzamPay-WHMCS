@@ -143,9 +143,6 @@ function azampay_link($params) {
     $clientID = $params['clientID'];
     $testMode = $params['testMode'];
 
-    //$appName = "Azampay Mobile Shope";
-    //$accountId = "e70c2833-242f-418e-b759-c73795b0b90d";
-
     $systemurl = $params['systemurl'];
     $callback_url = $systemurl . 'clientarea.php?action=invoices';
     $invoiceId = $params['invoiceid'];
